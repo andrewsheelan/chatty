@@ -3,3 +3,12 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#chat-form {
+  position: fixed;
+  bottom:0;
+  right: 0;
+  .panel-body, .panel-footer{
+    display: none;
+  }
+}

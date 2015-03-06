@@ -25,15 +25,17 @@ class ChatsController < ApplicationController
   # POST /chats
   # POST /chats.json
   def create
-    @chat = Chat.create(chat_params)
-    Pusher['test_channel'].trigger('my_event', {
-      id: @chat.id,
-      message: @chat.message,
-      user: @chat.user.name,
-      color: @chat.user.color,
-      created_at: @chat.user.created_at.strftime("%I:%M%p")
-    })
-    render :nothing
+    @chat = Chat.new(chat_params)
+    if @chat.save
+      Pusher['test_channel'].trigger('my_event', {
+        id: @chat.id,
+        message: @chat.message,
+        user: @chat.user.name,
+        color: @chat.user.color,
+        created_at: @chat.user.created_at.strftime("%I:%M%p")
+      })
+    end
+    render nothing: true
   end
 
   # PATCH/PUT /chats/1

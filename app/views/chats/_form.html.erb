@@ -1,14 +1,27 @@
+<div id='chat-form'>
 <% @chat = Chat.new %>
-<%= simple_form_for(@chat, remote: true) do |f| %>
+<%= form_for(@chat, remote: true) do |f| %>
   <div class="container">
       <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-4 col-lg-3 col-sm-4 pull-right">
               <div class="panel panel-primary">
-                  <div class="panel-heading">
-                      <span class="glyphicon glyphicon-comment"></span> Chat
-                      <div class="pull-right" style='margin-top: -5px'>
-                          <%= f.association :user, label: false, input_html: { class: 'form-control input-sm' }, placeholder: 'Select User'  %>
+                  <div class="panel-heading" style='cursor: pointer'>
+                      <span class="panel-max-min"><span class="glyphicon glyphicon-comment"></span> Chat [<span class='heading-user'></span>]</span>
+                      <div class="btn-group pull-right">
+                          <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                              <span class="glyphicon glyphicon-chevron-down"></span>
+                          </button>
+                          <ul class="dropdown-menu slidedown">
+                              <% User.all.each do |u| %>
+                                <li><a href="#" class='user-select' user='<%= u.id %>'><span class="glyphicon glyphicon-user">
+                                </span> <%= u.name %></a></li>
+                              <% end%>
+                              <li class="divider"></li>
+                              <li><a class='panel-max-min'><span class="glyphicon glyphicon-off"></span>
+                                  Minimize/Maximize</a></li>
+                          </ul>
                       </div>
+                      <%= f.hidden_field :user_id %>
                   </div>
                   <div class="panel-body">
                       <div class="chat">
@@ -21,8 +34,8 @@
 
                           <input id="btn-input" type="text" class="form-control input-sm" name="chat[message]" placeholder="Type your message here..." />
                           <span class="input-group-btn">
-                              <input type=submit class="btn btn-warning btn-sm" id="btn-chat">
-                                  Send</button>
+                              <input value=Send type=submit class="btn btn-warning btn-sm" id="btn-chat">
+
                           </span>
                       </div>
                   </div>
@@ -32,3 +45,4 @@
   </div>
 
 <% end %>
+<div>
