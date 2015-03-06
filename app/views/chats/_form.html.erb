@@ -1,0 +1,6 @@
+<% @chat = Chat.new %>
+<%= simple_form_for(@chat) do |f| %>
+  <%= f.association :user %>
+  <%= f.input :message %>
+  <%= f.submit %>
+<% end %>
