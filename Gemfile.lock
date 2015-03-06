@@ -130,8 +130,6 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
-    select2-rails (3.5.9.3)
-      thor (~> 0.14)
     signature (0.1.8)
     simple_form (3.1.0)
       actionpack (~> 4.0)
@@ -178,7 +176,6 @@ DEPENDENCIES
   rails (= 4.2.0)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
-  select2-rails
   simple_form (~> 3.1.0)
   spring
   sqlite3

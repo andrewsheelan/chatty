@@ -1,4 +1,5 @@
 class ChatsController < ApplicationController
+  require 'pusher'
   before_action :set_chat, only: [:show, :edit, :update, :destroy]
 
   # GET /chats
@@ -24,17 +25,15 @@ class ChatsController < ApplicationController
   # POST /chats
   # POST /chats.json
   def create
-    @chat = Chat.new(chat_params)
-
-    respond_to do |format|
-      if @chat.save
-        format.html { redirect_to @chat, notice: 'Chat was successfully created.' }
-        format.json { render :show, status: :created, location: @chat }
-      else
-        format.html { render :new }
-        format.json { render json: @chat.errors, status: :unprocessable_entity }
-      end
-    end
+    @chat = Chat.create(chat_params)
+    Pusher['test_channel'].trigger('my_event', {
+      id: @chat.id,
+      message: @chat.message,
+      user: @chat.user.name,
+      color: @chat.user.color,
+      created_at: @chat.user.created_at.strftime("%I:%M%p")
+    })
+    render :nothing
   end
 
   # PATCH/PUT /chats/1

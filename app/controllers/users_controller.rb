@@ -1,6 +1,5 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy]
-  require 'pusher'
 
   # GET /users
   # GET /users.json
@@ -26,10 +25,6 @@ class UsersController < ApplicationController
   # POST /users.json
   def create
     @user = User.new(user_params)
-
-    Pusher['test_channel'].trigger('my_event', {
-      message: 'hello world'
-    })
 
     respond_to do |format|
       if @user.save
@@ -74,6 +69,6 @@ class UsersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def user_params
-      params.require(:user).permit(:name)
+      params.require(:user).permit(:name, :color)
     end
 end
