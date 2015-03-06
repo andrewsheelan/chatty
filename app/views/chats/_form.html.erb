@@ -1,5 +1,5 @@
 <% @chat = Chat.new %>
-<%= simple_form_for(@chat) do |f| %>
+<%= simple_form_for(@chat, remote: true) do |f| %>
   <%= f.association :user %>
   <%= f.input :message %>
   <%= f.submit %>
