@@ -13,7 +13,11 @@ $(function(){
       $('#message-' + data.id).remove()
       $('#btn-input').val('')
       chatBody = $('.chat-body');
-      chatBody.append('<div id="message-' + data.id + '" style="color: ' + data.color + '"><div class="header"><strong class="primary-font">' + data.user + '</strong><small class="pull-right text-muted"><span class="glyphicon glyphicon-time"></span> ' + data.created_at + '</small></div><p>' + data.message + '</p></div>');
+      chatBody.append('<div id="message-' + data.id + '" style="color: ' + data.color + '"><div class="header"><strong class="primary-font">' + data.user + '</strong><small class="pull-right text-muted"><span class="glyphicon glyphicon-time"></span> ' + data.created_at + '</small></div><p id="p-' + data.id + '">' + data.message + '</p></div>');
+      $("#p-" + data.id).emoticonize({
+			  delay: 800,
+        animate: true
+      });
       chatBody.scrollTop(chatBody.prop('scrollHeight'));
     });
 
@@ -24,7 +28,6 @@ $(function(){
 
     $(document).on('click', '#chat-form .user-select', function(e){
       $('#chat_user_id').val($(e.target).attr('user'));
-      alert($(e.target).attr('user'))
       $('.heading-user').html($(e.target).html());
       e.preventDefault();
     })

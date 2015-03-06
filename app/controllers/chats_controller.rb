@@ -35,6 +35,7 @@ class ChatsController < ApplicationController
         created_at: @chat.user.created_at.strftime("%I:%M%p")
       })
     end
+
     render nothing: true
   end
 
