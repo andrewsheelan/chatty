@@ -27,8 +27,30 @@ class HomeController < ApplicationController
 
 			render :json => response
 		else
-			render :text => "Forbidden", :status => '403'
+			render :text => "forbidden", :status => '403'
 	    end
 
 	end
+
+	def presence_chat
+      @chat = Chat.new(chat_params)
+      if @chat.save
+        Pusher['presence-test_channel'].trigger('my_event', {
+          id: @chat.id,
+          message: @chat.message,
+          user: @chat.user.name,
+          color: @chat.user.color,
+          created_at: @chat.user.created_at.strftime("%I:%M%p")
+        })
+      end
+      render nothing: true
+  end
+
+  private
+
+	# Never trust parameters from the scary internet, only allow the white list through.
+	def chat_params
+		params.require(:chat).permit(:user_id, :message)
+	end
+
 end

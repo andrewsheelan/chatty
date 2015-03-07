@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   post 'home/presence_auth'
 
+  post 'home/presence_chat'
+
   resources :chats
 
   resources :users
