@@ -16,14 +16,16 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'pusher.min.js', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'chat.js', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'chat-presence.js', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-  
+
   <%= render 'shared/navigation' %>
-  
+
   <div class="container">
+
+    <%= render 'shared/navigation' %>
     <% flash.each do |name, msg| %>
       <%= content_tag :div, :class => "alert alert-#{ name == :error ? "danger" : "success" } alert-dismissable", :role => "alert" do %>
         <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -31,10 +33,12 @@
       <% end %>
     <% end %>
 
+    <p>Home Layout - Presence</p>
+
     <%= yield %>
   </div>
 
-  <%= render 'chats/form' %>
+  <%= render 'chats/form_presence' %>
 
 </body>
 </html>

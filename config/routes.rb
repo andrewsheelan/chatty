@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'home/index'
+
+  get 'home/presence'
+
+  get 'home/presence_auth'
+
+  post 'home/presence_auth'
+
   resources :chats
 
   resources :users
