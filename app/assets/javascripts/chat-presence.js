@@ -59,7 +59,7 @@ if( typeof _presence_chatJSLoaded === 'undefined' || variable === null ) {
       var ul = document.getElementById("member-list");
       var li = document.createElement("li");
       li.setAttribute("id", member.id)
-      li.appendChild(document.createTextNode(member.info.name + ' (' + member.info.email + ')' ));
+      li.appendChild(document.createTextNode(member.info.name + ' (' + member.info.email + ' @ ' + member.info.hostname + ' )' ));
       ul.appendChild(li);
     });
   }
