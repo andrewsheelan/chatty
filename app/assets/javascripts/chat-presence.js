@@ -33,6 +33,18 @@ if( typeof _presence_chatJSLoaded === 'undefined' || variable === null ) {
         updateMemberList(members);
       })
 
+      channel.bind('pusher:member_added', function(members) {
+        updateMemberCount(channel.members.count);
+        clearMemberList();
+        updateMemberList(channel.members);
+      });
+
+      channel.bind('pusher:member_removed', function(members) {
+        updateMemberCount(channel.members.count);
+        clearMemberList();
+        updateMemberList(channel.members);
+      });
+
       $(document).on('click', '#chat-form .panel-max-min', function(e) {
         $('#chat-form .panel-body').toggle()
         $('#chat-form .panel-footer').toggle()
