@@ -1,0 +1,38 @@
+#chat-form
+  = form_for(Chat.new, remote: true) do |f|
+    .container
+      .row
+        .col-md-4.col-lg-3.col-sm-4.pull-right
+          .panel.panel-primary
+            .panel-heading{style: 'cursor: pointer'}
+              %span.panel-max-min
+                %span.glyphicon.glyphicon-comment
+                  Chat
+                  %span.heading-user [select]
+
+              .btn-group.pull-right
+                %button.btn.btn-default.btn-xs.dropdown-toggle{type: 'button', 'data-toggle' => 'dropdown'}
+                  %span.glyphicon.glyphicon-chevron-down
+                %ul.dropdown-menu.slidedown
+                  - User.all.each do |u|
+                    %li
+                      %a.user-select{href: "#", user: u.id}
+                        %span.glyphicon.glyphicon-user
+                        = u.name
+                  %li.divider
+                  %li
+                    %a.panel-max-min
+                      %span.glyphicon.glyphicon-off
+                      Minimize/Maximize
+
+              = f.hidden_field :user_id
+
+            .panel-body
+              .chat
+                .chat-body.clearfix{ style: "height: 300px; overflow: scroll;"}
+
+            .panel-footer
+              .input-group
+                %input.form-control.input-sm#btn-input{ type: "text", name: "chat[message]", placeholder: "Type your message here..."}
+                %span.input-group-btn
+                  %input.btn.btn-warning.btn-sm#btn-chat{value: 'Send', type: 'submit'}

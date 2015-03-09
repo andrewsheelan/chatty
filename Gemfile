@@ -48,3 +48,10 @@ gem 'simple_form', '~> 3.1.0'
 gem 'bootstrap-sass', '~> 3.3.3'
 gem 'bootstrap-generators', '~> 3.3.1'
 gem 'jquery-cssemoticons-rails', '~> 0.0.2'
+gem "haml-rails", "~> 0.8"
+
+group :development do
+  # Adding some better errors to the web for development
+  gem "better_errors"
+  gem "binding_of_caller"
+end
