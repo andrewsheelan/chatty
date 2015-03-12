@@ -29,4 +29,4 @@ class Chat
       e.preventDefault()
 
 $(document).on "ready page:load", ->
-  new Chat() if ('#chat-form').length
+  new Chat() if $('#chat-form').length
