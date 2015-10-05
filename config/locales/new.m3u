@@ -174,3 +174,6 @@ rtmp://tst.es.flash.glb.ipercast.net/tst.es-live/live
 
 #EXTINF:-0,ANIMAL PLANET
 http://113.160.49.34/lives/origin03/animalsd.isml/animalsd-1096k.m3u8
+
+#EXTINF:-0,ANIMAL PLANET
+http://113.160.49.34/lives/origin03/animalsd.isml/animalsd-1096k.m3u8
