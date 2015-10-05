@@ -1,0 +1,176 @@
+#EXTM3U
+
+#EXTINF:-1, CNBC
+http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/cnbc_eu/ls_satlink/b_828.m3u8
+
+#EXTINF:-1, ABC NEWS
+http://abclive.abcnews.com/i/abc_live4@136330/index_1200_av-b.m3u8
+
+#EXTINF:-1 tvg-logo="BBC.png",BBCNews
+http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/bbc_world/ls_satlink/b_828.m3u8
+
+#EXTINF:-1, CNN International
+http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/cnn/ls_satlink/b_828.m3u8
+
+#EXTINF:-1,Press TV 
+http://ptv-hls.streaming.overon.es/ch03/livehigh.m3u8
+
+#EXTINF:-1,NDTV 24x7
+http://ndtv.live-s.cdn.bitgravity.com/cdn-live-b7/_definst_/ndtv/live/ndtv247live.smil/playlist.m3u8
+
+#EXTINF:-1, Al Jazeera (English).
+rtmp://aljazeeraflashlivefs.fplive.net:1935/aljazeeraflashlive-live?videoId=883816736001&lineUpId=&pubId=665003303001&playerId=751182905001&affiliateId=/aljazeera_eng_high?videoId=883816736001&lineUpId=&pubId=665003303001&playerId=751182905001&affiliateId=.flv live=1
+
+#EXTINF:0, India TV
+http://indiatvnews-lh.akamaihd.net/i/ITV_1@199237//master.m3u8
+
+#EXTINF:0,CINECANAL
+http://200.76.77.237/LIVE/H01/CANAL430/PROFILE03.m3u8?
+
+#EXTINF:-1,RT America
+http://odna.octoshape.net/f3f5m2v4/cds/ch4_720p/chunklist.m3u8
+
+#EXTINF:-1,RT Documentary HD
+http://odna.octoshape.net/f3f5m2v4/cds/ch5_720p/chunklist.m3u8
+
+#EXTINF:-1,Fox 1 HD (US)
+http://200.76.77.237/LIVE/H01/CANAL415/PROFILE03.m3u8?
+
+#EXTINF:-1,Fox Action (US)
+http://200.76.77.237/LIVE/H01/CANAL416/PROFILE03.m3u8?
+
+#EXTINF:-1,FOX CINEMA (US)
+http://200.76.77.237/LIVE/H01/CANAL472/PROFILE03.m3u8?
+
+#EXTINF:-1,FOX CLASSICS (US)
+http://200.76.77.237/LIVE/H01/CANAL478/PROFILE03.m3u8?
+
+#EXTINF:-1,Fox Family (US)
+http://200.76.77.237/LIVE/H01/CANAL475/PROFILE03.m3u8?
+
+#EXTINF:-1,FOX MOVIES HD (US)
+http://200.76.77.237/LIVE/H01/CANAL417/PROFILE03.m3u8?
+
+#EXTINF:-1,FX HD
+http://200.76.77.237/LIVE/H01/CANAL209/PROFILE03.m3u8?
+
+
+#EXTINF:-1,Miracle Channel
+http://miraclechannel.ios.internapcdn.net/miraclechannel/live_1/miraclechannel/miraclechannel.m3u8
+
+
+#EXTINF:-1,Pink Premium
+http://str108.setplex.net/fastv_2psh/PinkPremiumglobal_rly_greece_103/playlist.m3u8
+
+#EXTINF:-1,Pink Horror
+http://str108.setplex.net/fastv_2psh/PinkHorrorglobal_rly_greece_103/playlist.m3u8
+
+#EXTINF:-1,Pink Movies
+http://str108.setplex.net/fastv_2psh/PinkMoviesglobal_rly_greece_109/playlist.m3u8
+
+#EXTINF:-1,Pink Comedy
+http://str108.setplex.net/fastv_2psh/PinkComedyglobal_rly_greece_103/playlist.m3u8
+
+#EXTINF:-1,FILM ZONE HD (US)
+http://200.76.77.237/LIVE/H01/CANAL440/PROFILE03.m3u8?
+
+#EXTINF:-1,MBC
+rtmp://live-f01.vustream.net:1935/live/livestream
+
+#EXTINF:-1,MBC MAX
+rtmp://162.212.176.107:1935/mbc_max/globaltv-mbc_max.stream
+
+#EXTINF:-1,USA Live TV Big Ten Network
+http://bigten247.cdnak.bigtenhd.neulion.com/nlds/btn2go/btnnetwork/as/live/btnnetwork_hd_3000.m3u8
+
+#EXTINF:-1,CNBC
+http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/cnbc_eu/ls_satlink/b_,264,528,828,.m3u8
+
+#EXTINF:-1,CNN International
+http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/cnn/ls_satlink/b_828.m3u8
+
+#EXTINF:-1, CBC (english)
+rtmp://b.cdn.newschat.tv/edge pageUrl=http://www.livenewschat.eu/canada/?husham.com swfUrl=http://msnbclive.eu/player.swf playpath=cbc_live
+
+#EXTINF:-1, HSN
+rtmp://hsn.mpl.miisolutions.net:1935/hsn-live01/_definst_/mp4:420p500kB31 playpath=mp4:420p500kB31
+
+#EXTINF:-1, HSN 2
+rtmp://hsn.mpl.miisolutions.net:1935/hsn-live01/_definst_/mp4:468p500kB31 playpath=mp4:468p500kB31
+
+#EXTINF:-1,NTV EU
+http://109.123.70.24/pub1/mp4:ntveurope/playlist.m3u8
+
+#EXTINF:-1,Channel I eu
+http://109.123.70.24/pub1/mp4:channelieu/playlist.m3u8
+
+#EXTINF:-1,Channei s
+http://109.123.70.24/pub1/mp4:channelsuk/playlist.m3u8
+
+#EXTINF:-1,AXN Spanish
+http://200.76.77.237/LIVE/H01/CANAL213/PROFILE03.m3u8?
+
+#EXTINF:0,HBO Plus Spanish
+http://192.99.4.70/hls/HBO_PLUS.m3u8
+
+#EXTINF:0,HBO 2 Spanish
+http://192.99.4.70/hls/HBO2.m3u8
+
+#EXTINF:0,HBO Signature Spanish
+http://192.99.4.70/hls/hbo_signature.m3u8
+
+#EXTINF:0,HBO Family Spanish
+http://192.99.4.70/hls/HBO_FAMILY.m3u8
+
+#EXTINF:-1,Nickelodeon - Spanish
+http://hls.novotelecom.ru/streaming/nickelodeon/tvrec/playlist.m3u8
+
+
+#EXTINF:-1, Cartoon Network
+http://113.160.49.34/lives/origin03/cartoonsd.isml/cartoonsd.m3u8
+
+
+#EXTINF:-1 tvg-logo="Boomerang.png" group-title="UK Live TV", Boomerang
+http://hlsstr02.svc.iptv.rt.ru/hls/CH_BOOMERANG/variant.m3u8
+
+
+#EXTINF:-1,MSNBC
+rtmp://d.cdn.newschat.tv/edge playpath=msnbc_live swfUrl=http://msnbclive.eu/player.swf live=1 pageUrl=http://www.livenewschat.eu/politics/?husham.com
+
+#EXTINF:-1,HBO 2
+rtmp://89.248.168.57:1935/iguide playpath=0bf02qe6msgtu4s swfUrl=http://www.iguide.to/player/secure_player_iguide_token.swf live=1 pageUrl=http://www.iguide.to/view/1/HBO token=#ed%h0#w18623jsda6523lDGDve
+
+#EXTINF:-1, Sky Movies Premiere
+http://185.56.30.127:8082/TV4251
+#EXTINF:-1, Sky Movies Premiere+
+http://185.56.30.127:8082/TV4252
+#EXTINF:-1, Sky Sky Movies Select
+http://185.56.30.127:8082/TV4254
+#EXTINF:-1, Sky Movies Action & Adventure
+http://185.56.30.127:8082/TV4245
+#EXTINF:-1, Sky Movies Comedy
+http://185.56.30.127:8082/TV4246
+#EXTINF:-1, Sky Movies Disney
+http://185.56.30.127:8082/TV4247
+#EXTINF:-1, Sky Movies Family
+http://185.56.30.127:8082/TV4248
+#EXTINF:-1, Sky Movies SciFi
+http://185.56.30.127:8082/TV4249
+
+#EXTINF:-1,London Live
+http://bcoveliveios-i.akamaihd.net/hls/live/217434/3083279840001/master_900.m3u8
+
+#EXTINF:-1 tvg-logo="itv.png", ITV 1 London
+http://82.135.224.134:80/udp/239.100.3.6:1234
+
+#EXTINF:-1 tvg-logo="e4.png", E4 HD
+http://pebbles124-lh.akamaihd.net/i/e4_1@137789/master.m3u8|X-Forwarded-For=85.5.87.218
+
+#EXTINF:-1 tvg-logo="film4.png",  Film4 HD
+http://pebbles124-lh.akamaihd.net/i/film4_1@137790/master.m3u8|X-Forwarded-For=85.5.87.218
+
+#EXTINF:-1, Kiss Tv Music 
+rtmp://tst.es.flash.glb.ipercast.net/tst.es-live/live
+
+#EXTINF:-0,ANIMAL PLANET
+http://113.160.49.34/lives/origin03/animalsd.isml/animalsd-1096k.m3u8
