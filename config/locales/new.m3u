@@ -36,13 +36,13 @@ http://live1.haditv.com:1935/liveTrans/mp4:channel1_800k/playlist.m3u8
 rtmp://live1.haditv.com/liveTrans/
 
 #EXTINF:0, Hadi TV 2
-http://live2.haditv.com:1935/liveTrans/mp4:channel1_800k/playlist.m3u8
+http://live1.haditv.com:1935/liveTrans/mp4:channel2_800k/playlist.m3u8
 
 #EXTINF:0, Hadi TV 3
-http://live3.haditv.com:1935/liveTrans/mp4:channel1_800k/playlist.m3u8
+http://live1.haditv.com:1935/liveTrans/mp4:channel3_800k/playlist.m3u8
 
 #EXTINF:0, Hadi TV 4
-http://live4.haditv.com:1935/liveTrans/mp4:channel1_800k/playlist.m3u8
+http://live1.haditv.com:1935/liveTrans/mp4:channel4_800k/playlist.m3u8
 
 #EXTINF:0, Karbala TV 1
 https://livestream-f.akamaihd.net/11436227_3998452_00018621_1_2128@317400
