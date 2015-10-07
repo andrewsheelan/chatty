@@ -18,7 +18,7 @@ http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/bbc_world/ls_satlink/b_828.m3u8
 http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/cnn/ls_satlink/b_828.m3u8
 
 #EXTINF:-1,Press TV 
-http://ptv-hls.streaming.overon.es/ch03/livehigh.m3u8
+http://presstv-ch03.level3.hls.live.cdn.overon.es/livehigh/playlist.m3u8
 
 #EXTINF:-1,NDTV 24x7
 http://ndtv.live-s.cdn.bitgravity.com/cdn-live-b7/_definst_/ndtv/live/ndtv247live.smil/playlist.m3u8
