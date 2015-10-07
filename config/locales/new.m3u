@@ -24,6 +24,9 @@ rtmp://aljazeeraflashlivefs.fplive.net:1935/aljazeeraflashlive-live?videoId=8838
 #EXTINF:0, India TV
 http://indiatvnews-lh.akamaihd.net/i/ITV_1@199237//master.m3u8
 
+#EXTINF:0, Hadi TV
+http://live1.haditv.com:1935/liveTrans/mp4:channel1_800k/playlist.m3u8
+
 #EXTINF:0,CINECANAL
 http://200.76.77.237/LIVE/H01/CANAL430/PROFILE03.m3u8?
 
