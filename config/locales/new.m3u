@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1, Ahlebait tv
+http://cdnvideo.webvideocore.net/enc4_lukbp1lg90ffk9ouhmtqnaeko3g377ukf63e6ssk0glfbq0vumkts5ots2jlif1o3ag4ehcpr57psf82ee16rmsk5sv4t4jl2bkduduus3j88fho14m3euth1gq8dapsv/index.m3u8
 
 #EXTINF:-1, CNBC
 http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/cnbc_eu/ls_satlink/b_828.m3u8
