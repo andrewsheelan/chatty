@@ -32,6 +32,18 @@ http://indiatvnews-lh.akamaihd.net/i/ITV_1@199237//master.m3u8
 #EXTINF:0, Hadi TV
 http://live1.haditv.com:1935/liveTrans/mp4:channel1_800k/playlist.m3u8
 
+#EXTINF:-1, Hadi TV 1
+rtmp://live1.haditv.com/liveTrans/
+
+#EXTINF:-1, Hadi TV 2
+rtmp://live2.haditv.com/liveTrans/
+
+#EXTINF:-1, Hadi TV 3
+rtmp://live3.haditv.com/liveTrans/
+
+#EXTINF:-1, Hadi TV 4
+rtmp://live4.haditv.com/liveTrans/
+
 #EXTINF:0,CINECANAL
 http://200.76.77.237/LIVE/H01/CANAL430/PROFILE03.m3u8?
 
