@@ -44,6 +44,12 @@ rtmp://live3.haditv.com/liveTrans/
 #EXTINF:-1, Hadi TV 4
 rtmp://live4.haditv.com/liveTrans/
 
+#EXTINF:-1, Karbala TV 1
+https://livestream-f.akamaihd.net/11436227_3998452_00018621_1_2128@317400
+
+#EXTINF:-1, Karbala TV 2
+https://api.new.livestream.com/accounts/11436227/events/3998452/broadcasts/101245972.secure.smil
+
 #EXTINF:0,CINECANAL
 http://200.76.77.237/LIVE/H01/CANAL430/PROFILE03.m3u8?
 
