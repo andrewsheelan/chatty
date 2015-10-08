@@ -8,29 +8,8 @@ http://109.123.126.10:1935/live/livestream1.sdp/playlist.m3u8
 #EXTINF:-1, AlMahdi TV
 http://watch.almahditv.com/almahdi.isml/manifest(format=m3u8-aapl).m3u8
 
-#EXTINF:-1, CNBC
-http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/cnbc_eu/ls_satlink/b_828.m3u8
-
-#EXTINF:-1, ABC NEWS
-http://abclive.abcnews.com/i/abc_live4@136330/index_1200_av-b.m3u8
-
-#EXTINF:-1 tvg-logo="BBC.png",BBCNews
-http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/bbc_world/ls_satlink/b_828.m3u8
-
-#EXTINF:-1, CNN International
-http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/cnn/ls_satlink/b_828.m3u8
-
 #EXTINF:-1,Press TV 
 http://presstv-ch03.level3.hls.live.cdn.overon.es/livehigh/playlist.m3u8
-
-#EXTINF:-1,NDTV 24x7
-http://ndtv.live-s.cdn.bitgravity.com/cdn-live-b7/_definst_/ndtv/live/ndtv247live.smil/playlist.m3u8
-
-#EXTINF:-1, Al Jazeera (English).
-rtmp://aljazeeraflashlivefs.fplive.net:1935/aljazeeraflashlive-live?videoId=883816736001&lineUpId=&pubId=665003303001&playerId=751182905001&affiliateId=/aljazeera_eng_high?videoId=883816736001&lineUpId=&pubId=665003303001&playerId=751182905001&affiliateId=.flv live=1
-
-#EXTINF:0, India TV
-http://indiatvnews-lh.akamaihd.net/i/ITV_1@199237//master.m3u8
 
 #EXTINF:0, Hadi TV
 http://live1.haditv.com:1935/liveTrans/mp4:channel1_800k/playlist.m3u8
@@ -52,6 +31,27 @@ https://livestream-f.akamaihd.net/11436227_3998452_00018621_1_2128@317400
 
 #EXTINF:0, Karbala TV 2
 https://api.new.livestream.com/accounts/11436227/events/3998452/broadcasts/101245972.secure.smil
+
+#EXTINF:0, India TV
+http://indiatvnews-lh.akamaihd.net/i/ITV_1@199237//master.m3u8
+
+#EXTINF:-1,NDTV 24x7
+http://ndtv.live-s.cdn.bitgravity.com/cdn-live-b7/_definst_/ndtv/live/ndtv247live.smil/playlist.m3u8
+
+#EXTINF:-1, CNBC
+http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/cnbc_eu/ls_satlink/b_828.m3u8
+
+#EXTINF:-1, ABC NEWS
+http://abclive.abcnews.com/i/abc_live4@136330/index_1200_av-b.m3u8
+
+#EXTINF:-1 tvg-logo="BBC.png",BBCNews
+http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/bbc_world/ls_satlink/b_828.m3u8
+
+#EXTINF:-1, CNN International
+http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/cnn/ls_satlink/b_828.m3u8
+
+#EXTINF:-1, Al Jazeera (English).
+rtmp://aljazeeraflashlivefs.fplive.net:1935/aljazeeraflashlive-live?videoId=883816736001&lineUpId=&pubId=665003303001&playerId=751182905001&affiliateId=/aljazeera_eng_high?videoId=883816736001&lineUpId=&pubId=665003303001&playerId=751182905001&affiliateId=.flv live=1
 
 #EXTINF:0,CINECANAL
 http://200.76.77.237/LIVE/H01/CANAL430/PROFILE03.m3u8?
