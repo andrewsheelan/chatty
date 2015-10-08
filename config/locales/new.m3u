@@ -8,9 +8,6 @@ http://109.123.126.10:1935/live/livestream1.sdp/playlist.m3u8
 #EXTINF:-1, AlMahdi TV
 http://watch.almahditv.com/almahdi.isml/manifest(format=m3u8-aapl).m3u8
 
-#EXTINF:-1,Press TV 
-http://presstv-ch03.level3.hls.live.cdn.overon.es/livehigh/playlist.m3u8
-
 #EXTINF:0, Hadi TV
 http://live1.haditv.com:1935/liveTrans/mp4:channel1_800k/playlist.m3u8
 
@@ -26,11 +23,20 @@ http://live1.haditv.com:1935/liveTrans/mp4:channel3_800k/playlist.m3u8
 #EXTINF:0, Hadi TV 4
 http://live1.haditv.com:1935/liveTrans/mp4:channel4_800k/playlist.m3u8
 
+#EXTINF:0, Shia TV - Live Imam Hussain (A.S) Holy Shrine
+rtmp://ca.live.imamhussein.tv:1935/live2/iht03
+
+#EXTINF:0, Shia TV - Live Imam Reza (A.S) Holy Shrine
+rtmp://185.23.131.187:1935/live/flv:enghelab3
+
 #EXTINF:0, Karbala TV 1
 https://livestream-f.akamaihd.net/11436227_3998452_00018621_1_2128@317400
 
 #EXTINF:0, Karbala TV 2
 https://api.new.livestream.com/accounts/11436227/events/3998452/broadcasts/101245972.secure.smil
+
+#EXTINF:-1,Press TV 
+http://presstv-ch03.level3.hls.live.cdn.overon.es/livehigh/playlist.m3u8
 
 #EXTINF:0, India TV
 http://indiatvnews-lh.akamaihd.net/i/ITV_1@199237//master.m3u8
