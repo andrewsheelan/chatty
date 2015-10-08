@@ -23,10 +23,10 @@ http://live1.haditv.com:1935/liveTrans/mp4:channel3_800k/playlist.m3u8
 #EXTINF:0, Hadi TV 4
 http://live1.haditv.com:1935/liveTrans/mp4:channel4_800k/playlist.m3u8
 
-#EXTINF:0, Shia TV - Live Imam Hussain (A.S) Holy Shrine
+#EXTINF:-1, Shia TV - Live Imam Hussain (A.S) Holy Shrine
 rtmp://ca.live.imamhussein.tv:1935/live2/iht03
 
-#EXTINF:0, Shia TV - Live Imam Reza (A.S) Holy Shrine
+#EXTINF:-1, Shia TV - Live Imam Reza (A.S) Holy Shrine
 rtmp://185.23.131.187:1935/live/flv:enghelab3
 
 #EXTINF:0, Karbala TV 1
