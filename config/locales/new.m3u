@@ -2,6 +2,9 @@
 #EXTINF:-1, Ahlebait TV
 http://cdnvideo.webvideocore.net/enc4_lukbp1lg90ffk9ouhmtqnaeko3g377ukf63e6ssk0glfbq0vumkts5ots2jlif1o3ag4ehcpr57psf82ee16rmsk5sv4t4jl2bkduduus3j88fho14m3euth1gq8dapsv/index.m3u8
 
+#EXTINF:-1, Ahlulbayt TV (UK)
+http://109.123.126.10:1935/live/livestream1.sdp/playlist.m3u8
+
 #EXTINF:-1, AlMahdi TV
 http://watch.almahditv.com/almahdi.isml/manifest(format=m3u8-aapl).m3u8
 
